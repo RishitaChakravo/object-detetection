@@ -4,9 +4,10 @@ import cvzone
 import math
 
 # cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture('../Videos/video.mp4')
-cap.set(3, 640)
-cap.set(4, 480)
+# cap.set(3, 640)
+# cap.set(4, 480)
+
+cap = cv2.VideoCapture('Videos/video.mp4')
 
 classNames = [
     "person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
